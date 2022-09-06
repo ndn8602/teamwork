@@ -1,0 +1,20 @@
+@import "variable";
+@import "reset";
+
+.navbar {
+  background-color: $--color-bg-1;
+}
+.btn{
+    padding:12px 24px;
+    &-brand{
+        background-color: $--color-brand;
+        color: $--color-bg-1;
+        font-weight: 700;
+        border-radius: 100px;
+        &:hover{
+            background-color: $--color-brand-light;
+            border-color: $--color-brand-light;
+            color: $--color-bg-1;
+        }
+    }
+}

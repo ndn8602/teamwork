@@ -1,0 +1,35 @@
+body {
+  background-color: $--color-bg-1;
+  color: $--color-body;
+  font-family: $--font-main;
+  line-height: 1.7;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+  color: $--color-heading;
+}
+
+a {
+  transition: all 0.4s ease;
+  text-decoration: none;
+  color: $--color-body;
+}
+
+a:hover {
+  color: $--color-brand;
+}
+
+img {
+  width: 100%;
+}
+
+section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
